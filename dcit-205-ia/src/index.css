@@ -1,5 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@400;500;600;700;800&display=swap');
 
+* {
+	font-family: 'Gabarito', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+:root{
+	--primary: #153D6F;
+	--secondary: #B5975D;
+}
+
 body {
   	margin: 0;
+}
+
+section {
+	width: 100%;
+	padding: 50px 10%;
+    margin: auto;
+}
+
+h1 {
+	font-size: 4rem;
+    color: var(--primary);
+	margin: 0;
+}
+
+h2 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+p {
+	font-size: 1.3rem;
+}
+
+.primary-button, .secondary-button {
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.primary-button {
+	background-color: var(--primary);
+	border: 1.5px var(--primary) solid ;
+}
+
+.primary-button:hover {
+    color: var(--primary);
+    background-color: white;
+}
+
+.secondary-button {
+	background-color: var(--secondary);
+	border: 1.5px var(--secondary) solid ;
+}
+
+.secondary-button:hover {
+    color: var(--secondary);
+    background-color: white;
+}
+
+footer, .footer-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-body{
+	background-color: rgba(21, 61, 111, 0.2);
+	padding: 20px;
+}
+
+.footer-body img {
+	width: 20rem;
+}
+
+.footer-body > ul {
+	width: 30%;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding-inline-start: 0;
+	justify-content: space-around;
+}
+
+.footer-body > ul > li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	transition: 0.3s;
+}
+
+.footer-body > ul > li:hover {
+	font-weight: bold;
+	color: var(--primary);
+}
+
+.footer-body > ul > li:nth-child(3n){
+	margin-right: 0px;
+}
+.footer-body > ul > li:nth-last-child(-n+3){
+	margin-bottom: 0px;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 10px;	
 }
