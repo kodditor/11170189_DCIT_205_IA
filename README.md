@@ -3,7 +3,7 @@
 
 This is a simple ten-page website modeled after the [website](https://dcs.ug.edu.gh) of the Department of Computer Science at the University of Ghana.
 
-Though it shares many things with the original, I would like to think I've given it a fresh coat of paint.
+Though it shares many things with the original, I would like to think I've given it a [fresh coat of paint](https://www.figma.com/file/DhpahaH1pht2FAa5YD8eJc/DCIT_205?type=design&node-id=26%3A466&mode=design&t=e5xxNr1AvhmhTCME-1).
 
 ---
 ## Quick Start:
