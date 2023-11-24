@@ -1,0 +1,114 @@
+
+.section {
+    color: var(--primary);
+}
+
+
+.contact_socials_container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contact_social {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--paleBlue);
+    border-radius: 100%;
+    padding: 35px;
+    font-size: 3rem;
+    color: var(--primary);
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.contact_social:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.contact_details {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.contact_details > div:nth-child(2n-1) {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact_details > div > p {
+    color: black;
+    font-size: 1.6rem;
+}
+
+.divider {
+    background-color: var(--paleBlue);
+    height: 200px;
+    width: 5px;
+}
+
+
+.location_container, .form_container {
+    text-align: center;
+    width: 50%;
+}
+
+.location_container {
+    margin-bottom: 50px;
+}
+
+.location_container > p {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.form_container > h2 {
+    margin-bottom: 25px;
+}
+
+.newsletter_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter_form input{
+    margin-right: 20px;
+    width: 350px;
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    color: var(--primary);
+    border-radius: 999em;
+    border: 2px solid var(--primary);
+    background-color: white
+}
+
+.newsletter_form button {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 1.7rem;
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.newsletter_form button:hover {
+    background-color: white;
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
