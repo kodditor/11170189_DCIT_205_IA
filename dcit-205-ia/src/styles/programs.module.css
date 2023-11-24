@@ -1,0 +1,56 @@
+
+.section > h3 {
+    color: black;
+}
+
+.programs_container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.program_card {
+    width: 400px;
+    background-color: var(--paleBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s
+}
+
+.program_card:hover {
+    box-shadow: 0 5px 5px var(--paleBlue);
+    width: 410px;
+}
+
+.program_card > img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.program_card > h3 {
+    font-size: 1.7rem;
+    margin: 0%;
+    margin-bottom: 10px;
+}
+
+.program_card > h4 {
+    margin: 0%;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.program_card > p {
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.program_card > a {
+    margin-bottom: 30px;
+}
