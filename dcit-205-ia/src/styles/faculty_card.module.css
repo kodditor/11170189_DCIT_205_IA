@@ -1,0 +1,47 @@
+
+.faculty_container
+{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.faculty_box{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.faculty_box > h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+} 
+
+.faculty_box > p {
+    margin: 0;
+    text-align: center;
+}
+
+.faculty_img {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 3px var(--primary) solid;
+    transition: 0.3s;
+}
+
+.faculty_img:hover {
+    border: 5px var(--secondary) solid;
+}
+
+
+.faculty_box img {
+    width: 100%;
+}

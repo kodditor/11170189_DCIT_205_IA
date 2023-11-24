@@ -1,0 +1,29 @@
+
+.faculty_section > h1 {
+    margin-bottom: -15px;
+}
+
+.faculty_section > p {
+    color: black;
+    font-size: 1.7rem;
+    width: 60%;
+    text-align: center;
+}
+.faculty_box_container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.faculty {
+    border: 2px white solid;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.faculty:hover {
+    border-color: var(--paleBlue);
+}
