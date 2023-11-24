@@ -1,0 +1,30 @@
+
+
+.tree {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.project_container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.project_details {
+    width: calc(100% - 350px);
+}
+
+.project_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.project_image img {
+    width: 100%;
+}
