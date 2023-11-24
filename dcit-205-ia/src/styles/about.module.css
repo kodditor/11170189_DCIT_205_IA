@@ -1,0 +1,26 @@
+.about_box {
+    border-bottom: 2px solid var(--paleBlue);
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about_box:last-child {
+    margin-bottom: 0;
+}
+
+.about_box > h3 {
+    font-size: 2rem;
+    position: absolute;
+    left: -120px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    -webkit-text-stroke: 1.5px var(--primary);
+    color: white;
+    text-align: center;
+}
+
+.about_box p {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
